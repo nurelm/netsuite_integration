@@ -5,9 +5,9 @@ gem 'tilt', '~> 1.4.1'
 gem 'tilt-jbuilder', require: 'sinatra/jbuilder'
 
 gem 'jbuilder', '2.0.6'
-gem 'endpoint_base', github: 'spree/endpoint_base'
+gem 'endpoint_base', github: 'flowlink/endpoint_base'
 
-gem 'netsuite', github: 'wombat/netsuite', branch: 'fix-customer-field-refs'
+gem 'netsuite', github: 'NetSweet/netsuite', branch: 'master'
 gem 'honeybadger'
 gem 'airbrake'
 
