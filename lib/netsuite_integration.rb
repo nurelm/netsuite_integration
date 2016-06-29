@@ -2,6 +2,8 @@ $:.unshift File.dirname(__FILE__)
 
 require 'netsuite'
 
+require 'netsuite_integration/helpers/custom_field_helper'
+
 require 'netsuite_integration/services/base'
 require 'netsuite_integration/services/inventory_item'
 require 'netsuite_integration/services/customer'
